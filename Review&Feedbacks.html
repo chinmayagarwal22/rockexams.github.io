@@ -45,12 +45,19 @@ a:active{text-decoration: none;;}
 <br><br><br>
 
 	<form action = "" method = "POST">
-		Name: <input type = "text" name = "first_name" /><br><br>
-		Email: <input type = "email" name = "email" /><br><br>
+		Name: <input type = "text" name = "first_name" />
+		<br><br>
+		Email: <input type = "email" name = "email" />
+		<br><br>
 		<input type = "radio" name = "subject" value = "good"> Good
 		<input type = "radio" name = "subject" value = "average"> Average
 		<input type = "radio" name = "subject" value = "bad"> Bad
 	<br><br>
+		Do you recommend it for others? <select name = "dropdown">
+		<option value = "Yes" selected>Yes</option>
+		<option value = "No" selected>No</option>
+		</select>
+		<br><br>
 		Description :<br/>
 		<textarea rows = "5" cols = "50" name = "description">
 		Enter description here.......
