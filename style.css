@@ -169,7 +169,7 @@ body {
   @-webkit-keyframes move {
     from {
       margin-left: 199%;
-      width: 300%; 
+      width: 100%; 
     }
   
     to {
@@ -177,6 +177,3 @@ body {
       width: 100%;
     }
   }
-
-  
-  
