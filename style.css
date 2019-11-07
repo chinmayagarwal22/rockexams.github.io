@@ -1,13 +1,11 @@
-
-
 body {
 	margin-top: 20px;
-	background-image: url('cover_1.jpg');
-    background-position: fixed;
+	background-image: url('');
+  background-position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-     background-attachment: fixed;
-    font-family: 'Alegreya', serif; ;
+  background-attachment: fixed;
+  font-family: 'Alegreya', serif; ;
 	}
             
 // styling the carousel 
@@ -30,54 +28,53 @@ body {
 
 /* styling the hr */
 .hr  {
-    animation: move 1.5s;
-    -webkit-animation: move 1.5s;
+  border-top: 2px solid brown;
+  animation: movehr 1.5s;
+  -webkit-animation: movehr 1.5s;
+  min-width: 400px;
   }
   
-  @keyframes move {
+  @keyframes movehr {
     from {
-      margin-bottom;: 150px;
-      width: 100%; 
+      margin-top: 180px;
     }
   
     to {
-      margin-top: 50px;
-      width: 100%;
+      margin-top: 20px;
     }
   }
               
-  @-webkit-keyframes move {
+  @-webkit-keyframes movehr {
     from {
-      margin-left: 99%;
-      width: 100%; 
+      margin-top: 180px;
     }
   
     to {
-      margin-left: 50%;
-      width: 100%;
+      margin-top: 20px;
+     
     }
   }
          
 /* styling the heading */
 
 .header  {
-  animation: move 1.5s;
-  -webkit-animation: move 1.5s;
+  animation: moveh1 1.5s;
+  -webkit-animation: moveh1 1.5s;
 }
 
-@keyframes move {
+@keyframes moveh1 {
   from {
     margin-left: 99%;
     width: 100%; 
   }
 
   to {
-    margin-left: 50%;
+    margin-left: 0%;
     width: 100%;
   }
 }
             
-@-webkit-keyframes move {
+@-webkit-keyframes moveh1 {
   from {
     margin-left: 199%;
     width: 100%; 
@@ -98,23 +95,24 @@ body {
 }
 .a {
     border: 1px solid;
-    margin-left: 33px;
-    margin-right: 27px;  
-    padding: 5px;
+    margin-left: 2.1%;
+    margin-right: 2.1%;  
+    padding: 1%;
     box-sizing: border-box;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .a p {
-    margin-left: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     text-justify: inter-word;
     font-size: 20px;
 }
 
 .a h2 {
-    margin-left: 20px;
+    margin-left: 4%;
     margin-top: 5px;
 }
 
@@ -125,19 +123,20 @@ body {
     width: 20%;
     display: block;
 }
+
 .b {
     border: 1px solid;
-    margin-left: 33px;
-    margin-right: 27px;  
-    padding: 5px;
+    margin-left: 2.1%;
+    margin-right: 2.1%;  
+    padding: 1%;
     box-sizing: border-box;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .b p {
-    margin-left: 25px;
-    margin-right: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     text-justify: inter-word;
     font-size: 20px;
@@ -145,35 +144,45 @@ body {
 }
 
 .b h2 {
-    margin-left: 20px;
+    margin-left: 4%;
     margin-top: 5px;
 }
 
 .a, .b {
-    animation: move 1.5s;
-    -webkit-animation: move 1.5s;
+    animation: move1 1.5s;
+    -webkit-animation: move1 1.5s;
   }
   
-  @keyframes move {
+  @keyframes move1 {
     from {
       margin-left: 99%;
-      width: 100%; 
+      width: 96%; 
     }
   
     to {
-      margin-left: 0%;
-      width: 100%;
+      margin-left: 2.1%;
+      width: 96%;
     }
   }
               
-  @-webkit-keyframes move {
+  @-webkit-keyframes move1 {
     from {
       margin-left: 199%;
       width: 100%; 
     }
   
     to {
-      margin-left: 0%;
+      margin-left: 2.1%;
       width: 100%;
     }
+  }
+  
+.b  li {
+      list-style-image: url("bullet.png");
+      font-size: 20px;
+    }
+
+.a li {
+  list-style-image: url("bullet2.png");
+  font-size: 20px;
   }
