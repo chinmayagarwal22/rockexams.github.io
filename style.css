@@ -156,11 +156,13 @@ font-family: 'Alegreya', serif; ;
     from {
       margin-left: 99%;
       width: 96%; 
+      font-size: 20px;
     }
   
     to {
       margin-left: 2.1%;
       width: 96%;
+      font-size: 20px;
     }
   }
               
@@ -168,11 +170,13 @@ font-family: 'Alegreya', serif; ;
     from {
       margin-left: 199%;
       width: 100%; 
+      font-size: 20px;
     }
   
     to {
       margin-left: 2.1%;
       width: 100%;
+	    font-size: 20px;
     }
   }
   
