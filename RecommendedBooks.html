@@ -1,22 +1,27 @@
-﻿<!DOCTYPEhtml>
+<!DOCTYPE html>
+<html> 
 <head>
-<title meta-charset="UTF-8"> Recommended Books by Rock Exams</title>
+    <title> Recommended Books by Rock Exams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_RecommendedBooks.css" />
+
+    <!-- google adsense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
+  <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-5415673619041131",
     enable_page_level_ads: true
   });
-</script>
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142507085-1"></script>
-<script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142507085-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-142507085-1');
-</script>
-
+  </script>
 </head>
 
 <body>
@@ -26,24 +31,37 @@
 <br>
 <br>
 
-<style>
-a:link{text-decoration: none; }
-a:visited{text-decoration: none;}
-a:hover{text-decoration: underline; olor: white;}
-a:active{text-decoration: none; color: blue;}
-</style>
+    <!-- header for all files -->
+    <div class="header">
 
-<table cellpadding="8" cellspacing="8" >
-<tr bgcolor="#242C77">
-<td><a href="CBSEClass11&12.html" style="color: white"><strong>CBSE-Class 11&12</strong></a></td>
-<td><a href="JeeMains&Advanced" style="color: white"><strong>Jee Mains and Advanced</strong></a></td>
-<td><a href="RecommendedExams.html" style="color: white"><strong>Recommended Exams</strong></a></td>
-<td><a href="RecommendedBooks.html" style="color: white"><strong>Recommended Books</strong></a></td>
-<td><a href="Reviews&Feedbacks.html" style="color: white"><strong>Reviews and Feedbacks</strong></a></td>
-<td><a href="‪Contact.html" style="color: white"><strong>Contact Us</strong></a></td>
-</tr>
-</table>
-
+        <!-- navigation bar at the top-->
+        <div class="nav-bar">
+            <ul>
+               <div class="dropdown">
+                   <a href="CBSEClass11&12.html"> CBSE Class 11 & 12 </a>
+                   <div class="dropdown-content">  <!-- dropdown on hover -->
+                       <a href="CBSEPhysics.html"> CBSE Physics </a>
+                       <a href="CBSEChemistry.html"> CBSE Chemistry </a>
+                       <a href="CBSEMathematics.html"> CBSE Mathematics </a>
+                       <a href="CBSEEconomics.html"> CBSE Economics </a>
+                       <a href="CBSEPhysicalEducation.html"> CBSE Physical Education </a>
+                   </div>
+               </div>
+               <div class="dropdown">
+                    <a href="JEEMains&Advanced.html"> JEE Mains & Advanced </a>
+                    <div class="dropdown-content">   <!-- dropdown on hover -->
+                     <a href="JEEPhysics.html"> JEE Physics </a>
+                     <a href="JEEChemistry.html"> JEE Chemistry </a>
+                     <a href="JEEMathematics.html"> JEE Mathematics </a>
+                    </div>
+               </div>
+               <li><a href="RecommendedExams.html"> Recommended Exams </a></li>
+               <li><a class="active" href="RecommendedBooks.html"> Recommended Books </a></li>
+               <li><a href="Reviews&Feedbacks.html"> Reviews and Feedbacks </a></li>
+               <li><a href="ContactUs.html"> Contact Us </a></li>
+            </ul>
+        </div>
+    </div>
 <br><br><br>
 
   <!-- Load font awesome icons -->
@@ -52,21 +70,21 @@ a:active{text-decoration: none; color: blue;}
 <!-- The social media icon bar -->
 <div class="leftside">
   <ul>
-    <li><a href="https://www.facebook.com/rockexams/"<i class="fa fa-facebook"></a></i></li>
+    <li><a href="https://www.facebook.com/rockexams/"><i class="fa fa-facebook"></a></i></li>
     <li><i class="fa fa-twitter"></i></li>
-<li><a href="https://www.instagram.com/rock_exams/"<i class="fa fa-instagram"></a></i></li>
+    <li><a href="https://www.instagram.com/rock_exams/"><i class="fa fa-instagram"></a></i></li>
   </ul>
 </div>
  
  <!--------add css style----->
   
   <style type="text/css">
-    * {padding: 0px; margin: 0px;}
-    ul {width: 100px; position: absolute;}
-    .leftside {position: absolute; top: 25%}
-    .leftside li {list-style-type: none; padding: 20px; transition: .6s; color: white; position: relative; cursor: pointer;}
-    .leftside li i{font-size: 40px;}
-    .leftside li:hover {padding: 20px 40px;}
+    .leftside {padding: 0px; margin: 0px; float: right;}
+    .leftside ul {width: 50px; position: absolute;}
+    .leftside {position: absolute; top: 25%; right: 10%}
+    .leftside li {list-style-type: none; padding: 10px; transition: .6s; color: white; position: relative; cursor: pointer;}
+    .leftside li i{font-size: 32px;}
+    .leftside li:hover {padding: 10px 25px;}
     .leftside li:nth-child(1){background: #3b5998; color: white;}
     .leftside li:nth-child(2){background: #00aced;}
     .leftside li:nth-child(3){background: #FF0000;}
@@ -74,6 +92,125 @@ a:active{text-decoration: none; color: blue;}
 
 <font size="5"><marquee behaviour="scroll" direction="left" align="center" width="1150px"> Stay connected for more such content </marquee></font>
 <br><br><br>
-<td>Concep
+
+<div class="books">
+<table border="2px" cellspacing="0px" >
+    <tr>
+        <th> Subject </th>
+        <th> Book </th>
+        <th> Author </th>
+        <th> Best Buy Link </th>
+    </tr>
+
+    <tr>
+        <td colspan="4"> <br/> </td>
+    </tr>
+
+    <!-- Physics -->
+    <tr>
+        <th rowspan="4">Physics </th>
+        <td> Concepts Of Physics </td>
+        <td> H. C. Verma </td>
+        <td><a href="https://amzn.to/2EpOiJv">https://amzn.to/2EpOiJv</a> </td>
+    </tr>
+    <tr>
+        <td> Problems in General Physics </td>
+        <td> I.E. Irodov </td>
+        <td><a href="https://www.amazon.in/Cengage-Physics-Set-Books-Advanced/dp/B07DX43R7M/ref=sr_1_7?keywords=cengage&qid=1576411815&sr=8-7"> shorturl.at/arxDZ </a></td>
+    </tr>
+    <tr>
+        <td> Understanding Physics </td>
+        <td> D.C. Pandey </td>
+        <td><a href="https://amzn.to/36ySZgn"> https://amzn.to/36ySZgn </a></td>
+    </tr>
+    <tr>
+        <td> Cengage Physics </td>
+        <td> B.M. Sharma </td>
+        <td><a href="https://www.amazon.in/Cengage-Physics-Set-Books-Advanced/dp/B07DX43R7M/ref=sr_1_7?keywords=cengage&qid=1576411815&sr=8-7"> shorturl.at/ivAH8 </a></td>
+    </tr>
+    <tr>
+        <td colspan="4"><br/></td>
+    </tr>
+
+    <!-- Chemistry-->
+    <tr>
+        <th rowspan="9"> Chemistry</th>
+        <td> Chemistry NCERT</td>
+        <td> --various--</td>
+        <td><a href="https://amzn.to/2RVougG"> https://amzn.to/2RVougG</a><br/>
+            <a href="https://amzn.to/2Q0h2yf"> https://amzn.to/2Q0h2yf</a></td>
+    </tr>
+    <tr>
+        <td> Advanced Problems in Organic Chemistry </td>
+        <td> M.S. Chouhan </td>
+        <td><a href="https://amzn.to/2LUOaWG"> https://amzn.to/2LUOaWG </a></td>
+    </tr>
+    <tr>
+        <td> Solomons' Organic Chemistry </td>
+        <td> T. W. Graham Solomons </td>
+        <td><a href="https://amzn.to/2EnB2oI"> https://amzn.to/2EnB2oI </a> </td>
+    </tr>
+    <tr>
+        <td> A Textbook of Organic Chemistry </td>
+        <td> O.P. Tandon </td>
+        <td><a href="https://amzn.to/2EijjPH"> https://amzn.to/2EijjPH </a></td>
+    </tr>
+    <tr>
+        <td> Concise Inorganic Chemistry </td>
+        <td> J.D. Lee (Sudarshan Guha edition) </td>
+        <td> <a href="https://amzn.to/2qTgvFz"> https://amzn.to/2qTgvFz </a></td>
+    </tr>
+    <tr>
+        <td> Problems in Inorganic Chemistry </td>
+        <td> V.K. Jaiswal </td>
+        <td><a href="https://amzn.to/2LWVZeK"> https://amzn.to/2LWVZeK </a></td>
+    </tr>
+ 
+    <tr>
+        <td> Atkins' Physical Chemistry </td>
+        <td> Peter Atkins, Julio de Paula, James Keeler </td>
+        <td><a href="https://amzn.to/2rNCZs3"> https://amzn.to/2rNCZs3</a></td>
+    </tr>
+    <tr> 
+        <td> Concepts of Physical Chemistry </td>
+        <td> P. Bahadur </td>
+        <td><a href="https://amzn.to/2tfXG01"> https://amzn.to/2tfXG01 </a></td>
+    </tr>
+    <tr> 
+        <td> Modern Approach to Chemical Calculations</td>
+        <td> R.C. Mukharjee </td>
+        <td><a href="https://amzn.to/2LWpoFz"> https://amzn.to/2LWpoFz </a></td>
+    </tr>
+    <tr>
+        <td colspan="4"> <br/> </td>
+    </tr>
+
+    <!-- Mathematics -->
+    <tr>
+        <th rowspan="5"> Mathematics</th>
+        <td> Mathematics NCERT </td>
+        <td> --various--</td>
+        <td><a href="https://amzn.to/35q73Zd"> https://amzn.to/35q73Zd </a></td>
+    </tr>
+    <tr>
+        <td> Skills in Mathematics for JEE Mains & Advanced </td>
+        <td> Arihant Experts </td>
+        <td><a href="https://amzn.to/36IELtv"> https://amzn.to/36IELtv </a></td>
+    </tr>
+    <tr>
+        <td> Mathematics for Class 11 and Class 12 </td>
+        <td> R.D Sharma </td>
+        <td><a href="https://amzn.to/2PM9Fu7"> https://amzn.to/2PM9Fu7 </a></td>
+    </tr>
+    <tr>
+        <td> The Elements of Coordinate Geometory </td>
+        <td> S.L. Loney </td>
+        <td><a href="https://www.amazon.in/Elements-COORDINATE-GEOMETRY-Cartesian-Coordinates/dp/9351762238/ref=sr_1_1?keywords=sl+loney&qid=1576417194&sr=8-1"> shorturl.at/gzHY4 </a></td>
+    </tr>
+</table>
+</div>
+
+<br><br><br><br>
+
 </body>
 </html>
