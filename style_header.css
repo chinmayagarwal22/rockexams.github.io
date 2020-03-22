@@ -1,0 +1,46 @@
+.nav-bar ul {
+    list-style-type: none;  /* no bullets to be displayed */
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;  /* navigation bar to float left */
+    display: inline-block;  /* to be displayed in a line */
+    text-align: center;  /* center align for text */
+    border-right: 1px solid #ffffff;  /* border is white colored*/
+    font-size: 20px;
+    padding: 0px;
+}
+
+.nav-bar li a {
+    display: block;
+    background-color: #333;
+    color: #ffffff;  /* text color is white */
+    padding: 14px 16px; 
+    text-decoration: none;  /* no underline on links */
+}
+
+.nav-bar li a:hover {
+    background-color: #111111; /* on hover the color changes */
+    margin-top: 3px;  /* move down when mouse is hovered */
+}
+
+@media only screen and (max-width: 1300px){
+    .nav-bar li a:hover {
+        margin-top: 0px;  /* no movement of blocks */
+    }
+}
+
+li:last-child {
+    border-right: none;  /* no right border for the last block */
+}
+
+.nav-bar a.active {
+    background-color: #4CAF50;  /* active link to have green bg color */
+}
+
+.nav-bar a.active:hover {
+    background-color: #4CAF50;  /* color of opened link remains green on hover */
+}
